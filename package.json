@@ -1,0 +1,16 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd ./electron; npm install"
+  },
+  "keywords": [],
+  "author": "Yuichi Yogo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "socket.io": "^2.2.0"
+  }
+}
